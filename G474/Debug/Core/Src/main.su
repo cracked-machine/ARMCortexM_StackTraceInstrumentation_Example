@@ -1,0 +1,17 @@
+main.c:96:6:trigger_irq	16	static,ignoring_inline_asm
+main.c:109:6:stkerr_from_psp	40	dynamic
+main.c:121:5:bad_memory_access_crash	16	static
+main.c:126:5:illegal_instruction_execution	16	static
+main.c:131:6:unaligned_double_word_read	16	static
+main.c:137:6:bad_addr_double_word_write	16	static
+main.c:142:6:access_disabled_coprocessor	4	static,ignoring_inline_asm
+main.c:154:10:read_from_bad_address	4	static
+main.c:159:6:Irq1_Handler	0	static,ignoring_inline_asm
+main.c:166:6:trigger_crash	16	static
+main.c:207:5:main	88	static
+main.c:292:6:SystemClock_Config	88	static
+main.c:337:13:MX_GPIO_Init	40	static
+main.c:368:6:prvQueuePingTask	32	static,ignoring_inline_asm
+main.c:406:6:prvQueuePongTask	32	static
+main.c:433:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:450:6:Error_Handler	4	static
